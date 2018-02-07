@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
 .token.selector{
     color: black;
 }
@@ -8,4 +16,13 @@
 
 .token.function{
     color: black;
+}
+
+#code{
+    height: 100vh;   /*先让红色边框与可视窗口一样大*/
+    overflow: hidden;     /*带滚动条*/
+}
+
+#paper > pre{
+    padding-left: 16px;
 }
